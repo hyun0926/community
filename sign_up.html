@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ko" class="no-js">
+<head>
+	<meta charset="utf-8" />
+	<title>Coin Good</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+	<meta name="apple-mobile-web-app-title" content="">
+	<meta name="description" content="coin good">
+	<meta name="keywords" content="비트코인, 가상화폐, 가상화폐 커뮤니티">
+	<meta property="og:site_name" content="coin good">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="coin good">
+	<meta property="og:description" content="">
+	<meta property="og:url" content="">
+	<meta property="og:image" content="">
+	<link rel="stylesheet" type="text/css" href="css/layout.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/contents.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/flat/red.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/jquery.dataTables.min.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/responsive.dataTables.min.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css" media="all" />
+	<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+	<script type="text/javascript" src="js/global.js"></script>
+	<script type="text/javascript" src="js/modernizr.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/icheck.js"></script>
+	<script type="text/javascript" src="js/sweetalert.min.js"></script>
+	<script type="text/javascript" src="js/jquery.modal.min.js"></script>
+	<script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
+	<script type="text/javascript" src="js/dataTables.responsive.min.js"></script>
+	<script type="text/javascript" src="js/swiper.min.js"></script>
+	<script type="text/javascript" src="js/jquery.dlmenu.js"></script>
+</head>
+<body>
+	<header>
+<!--		<span class="back"><a href="#n"><i class="xi-angle-left"></i></a></span>-->
+		<h1><a href="index.html" class="logo"><img src="images/common/logo.png" alt="ADM CAT"></a></h1>
+		<span class="top-serch"><a href="search.html"><i class="xi-search"></i></a></span>
+	</header>
+	<main class="index" role="main">
+
+<div class="contents sign-up">
+	<h3>회원가입</h3>
+	<div class="cell">
+		<dl class="terms-wrap">
+			<dt>약관동의<strong>[필수]</strong></dt>
+			<dd>
+				<div class="check-box">
+					<input type="checkbox" class="iCheck" /><label for="">이용약관 및 개인정보처리방침동의</label><a href="#consent" rel="modal:open">자세히보기</a>
+				</div>		
+			</dd>
+		</dl>
+	</div>
+	<div class="cell">
+		<h4>개인정보입력</h4>
+		<table class="normal-table">
+			<colgroup>
+				<col width="25%">
+				<col width="75%">
+			</colgroup>
+			<tbody>
+				<tr>
+					<th>아이디 *</th>
+					<td>
+						<input type="text" style="width: 50%;" /> <a href="#n" class="btn-grad__default">중복확인</a>
+						<ul class="check-list">
+							<li>등록하신 이메일로 인증메일이 발송됩니다.</li>
+							<li>메일 확인 후 [인증확인]버튼을 누르면 이메일 인증이 완료됩니다.</li>
+							<li>메일확인이 안될 경우 스펨메일함을 확인해주세요.</li>
+						</ul>
+						<ul class="btn-col">
+							<li><a href="" class="btn-g">인증메일발송</a></li>
+							<li><a href="" class="btn-c">인증확인</a></li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<th>비밀번호 *</th>
+					<td>
+						<input type="password" />
+						<ul class="check-list">
+							<li>비밀번호는 영문, 숫자, 특수문자 조합으로 8자리 ~ 12자리</li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<th>비밀번호확인 *</th>
+					<td><input type="password" /></td>
+				</tr>
+				<tr>
+					<th>닉네임</th>
+					<td><input type="text" /></td>
+				</tr>
+				<tr>
+					<th>생년월일</th>
+					<td><input type="text" /></td>
+				</tr>
+				<tr>
+					<th>성별 *</th>
+					<td>
+						<input type="radio" name="gender" class="iCheck" id="man" checked /><label for="man" style="margin-right: 20px;">남자</label>
+						<input type="radio" name="gender" class="iCheck" id="girl" /><label for="girl">여자</label>
+					</td>
+				</tr>
+				<tr>
+					<th>메일수신</th>
+					<td>
+						<p style="margin-bottom: 8px;"><input type="radio" name="mail-status" class="iCheck" id="mail-all" /><label for="mail-all">전체수신허용</label></p>
+						<p style="margin-bottom: 8px;"><input type="radio" name="mail-status" class="iCheck" id="mail-rebuff" /><label for="mail-rebuff">전체수신거부</label></p>
+						<p><input type="radio" name="mail-status" class="iCheck" id="mail-add" /><label for="mail-add">광고만수신거부</label></p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<ul class="btn-row">
+			<li><a href="sign_up_complet.html" class="btn-c">회원가입완료</a></li>
+		</ul>
+	</div>
+</div>
+
+<div id="consent" class="modal main-blocker">
+	<div class="inner">
+		<div class="moHead">
+			<h3>약관동의</h3>
+		</div>
+		<div class="moMid">
+			<ul class="tabList terms_tab">
+				<li><a href="#tab-1" class="current">이용약관</a></li>
+				<li><a href="#tab-2" class="">개인정보취급방침</a></li>
+			</ul>
+			<div id="tab-1" class="tabCon current">
+				이용약관
+			</div>
+			<div id="tab-2" class="tabCon">
+				개인정보취급방침
+			</div>
+		</div>
+	</div>
+</div>
+
+  <footer>
+  	<a href="#" class="scollTop"><i class="xi-arrow-up"></i></a>
+  	<ul class="footer-menu">
+  		<li><a href="#n">이용약관</a></li>
+  		<li><a href="#n">개인정보 취급방침</a></li>
+  	</ul>
+  	<div class="footer-info-wrap">
+			<img src="images/common/logo_grey.png" class="footer-logo" alt="coin good" />
+			<ul class="footer-info">
+				<li>Coingood</li>
+				<li>주소 : 서울시 강남구 역삼로 127</li>
+				<li>대표 : 홍길동, 사업자등록번호 : 123-45-657890</li>
+				<li>고객센터 : 1588-1234 (10:00~17:00 / 주말 및 공휴일 휴무)</li>
+				<li>Email : help@coingood.co.kr</li>
+			</ul>
+			<div class="btn-wrap">
+				<a href="#n">이용약관</a>
+				<a href="#n">개인정보취급방침</a>
+			</div>
+  	</div>
+		<p class="copy">Copyright CoinGood All Right Reserved.</p>
+  </footer>
+</main>
+	
+<a href="#cd-nav" class="cd-nav-trigger">Menu 
+		<span class="cd-nav-icon"></span>
+
+		<svg x="0px" y="0px" width="54px" height="54px" viewBox="0 0 54 54">
+			<circle fill="transparent" stroke="#343e58" stroke-width="1" cx="22" cy="22" r="20" stroke-dasharray="157 157" stroke-dashoffset="157"></circle>
+		</svg>
+	</a>
+<div id="cd-nav" class="cd-nav">
+	<div class="cd-navigation-wrapper">
+		<div class="cd-half-block">
+			<!-- 로그인
+			<div class="nav-top">
+				<a href="mypage.html"><em class="userName"><strong>홍길동</strong>님</em></a>
+				<span class="alarm">
+					<i class="xi-bell-o"></i>
+					<span class="alarmNum">2</span>
+				</span>
+				<a href="#n" class="btn-m">로그아웃</a>
+				<select class="lang">
+					<option value="korean">Korean</option>
+					<option value="korean">English</option>
+				</select>
+			</div> -->
+			<!-- 로그아웃 -->
+			<div class="nav-top">
+				<a href="login.html" class="btn-m" style="margin-left:0;">로그인</a>
+				<select class="lang">
+					<option value="korean">Korean</option>
+					<option value="korean">English</option>
+				</select>
+			</div>
+			<nav>
+				<ul class="cd-accordion-menu animated">
+					<li class="has-children">
+						<input type="checkbox" name="group-1" id="group-1">
+						<label for="group-1">코인굿</label>
+						<ul class="menu-bidding">
+							<li><a href="news.html">코인뉴스</a></li>
+							<li><a href="schedule.html">코인일정</a></li>
+							<li><a href="analysis_chart.html">차트분석</a></li>
+							<li><a href="ico_info.html">ICO정보</a></li>
+						</ul>
+					</li>
+					<li class="has-children">
+						<input type="checkbox" name="group-2" id="group-2">
+						<label for="group-2">커뮤니티</label>
+						<ul class="menu-admManage">
+							<li><a href="recommend.html">추천 게시물</a></li>
+							<li><a href="freeboard.html">자유게시판</a></li>
+							<li><a href="qna.html">질문/답변</a></li>
+							<li><a href="know_how.html">코인 노하우</a></li>
+							<li><a href="humor.html">유머/감동</a></li>
+							<li><a href="introduce.html">가입인사</a></li>
+							<li><a href="rangking.html">회원랭킹</a></li>
+						</ul>
+					</li>
+					<li class="has-children">
+						<input type="checkbox" name="group-3" id="group-3">
+						<label for="group-3">거래소 커뮤니티</label>
+						<ul class="menu-activity">
+							<li><a href="popular_list.html">거래소 최신글</a></li>
+							<li><a href="#n">Pactbit</a></li>
+						</ul>
+					</li>
+					<li class="has-children">
+						<input type="checkbox" name="group-4" id="group-4">
+						<label for="group-4">갤러리</label>
+						<ul class="menu-customer">
+							<li><a href="#n">손익인증갤러리</a></li>
+							<li><a href="#n">자유갤러리</a></li>
+							<li><a href="#n">연예인갤러리</a></li>
+						</ul>
+					</li>
+					<li class="has-children">
+						<input type="checkbox" name="group-5" id="group-5">
+						<label for="group-5">거래소/차트</label>
+						<ul class="menu-customer">
+							<li><a href="#n">국내거래소</a></li>
+							<li><a href="#n">해외거래소</a></li>
+							<li><a href="#n">시세/차트</a></li>
+						</ul>
+					</li>
+					<li class="has-children">
+						<input type="checkbox" name="group-6" id="group-6">
+						<label for="group-6">고객센터</label>
+						<ul class="menu-mypage">
+							<li><a href="#n">공지사항</a></li>
+							<li><a href="#n">이벤트</a></li>
+							<li><a href="#n">온라인문의</a></li>
+							<li><a href="#n">제휴문의</a></li>
+						</ul>
+					</li>
+					<li class="has-children">
+						<input type="checkbox" name="group-7" id="group-7">
+						<label for="group-7">마이페이지</label>
+						<ul class="menu-etc">
+							<li><a href="#n">회원정보</a></li>
+							<li><a href="notification.html">알림</a></li>
+							<li><a href="#n">친구관리</a></li>
+							<li><a href="#n">쪽지함</a></li>
+							<li><a href="#n">포인트</a></li>
+							<li><a href="#n">스크랩</a></li>
+							<li><a href="#n">나의 활동</a></li>
+							<li><a href="#n">로그인 기록</a></li>
+							<li><a href="#n">거래소 커뮤니티관리</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div> 
+</div>
+</body>
+</html>
